@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login_styles.css">
     <link rel="shortcut icon" href="Imagens/Crofu.png" type="image/x-icon">
     <title> Crofu - Proyecto </title>
 </head>
@@ -19,59 +19,32 @@
                 <a href="https://wa.me/numero-de-telefono" class="imgxd"><img src="Imagens/Whatsapp.png"
                         alt="WhatsApp"></a>
                 <a href="https://www.tiktok.com" class="imgxd"><img src="Imagens/Tiktok.png" alt="TikTok"></a>
-                <a href="#abajo_parte" class="inme">Inicio</a>
+                <a href="index.html" class="inme">Inicio</a>
                 <a href="#" class="inme 1">Menú</a>
-                <a href="#abajo_parte"><img src="Imagens/Crofu.png" alt="Logo de la Empresa" class="logo_arriba"></a>
+                <a href="index.html"><img src="Imagens/Crofu.png" alt="Logo de la Empresa" class="logo_arriba"></a>
                 <a href="#">Conócenos</a>
-                <a href="login.html" class="log">Login</a>
+                <a href="#" class="log">Login</a>
             </nav>
         </div>
-        <section class="abajo_parte" id="abajo_parte">
-            <h1 class="hola_gr">¡HOLA!¡GRACIAS POR VISITARNOS!</h1>
-            <div class="logo_abajo">
-                <img src="Imagens/Crofu.png" alt="Crofu_Logo">
-                <h1>¡HELADARIA PARA TODOS A</h1>
-                <h1>LOS QUE LES GUSTA EL HELADO!</h1>
-                <a href="#" class="log">Misión y Visión</a>
-            </div>
-        </section>
-
-
     </header>
     <main>
-        <div class="menu_parte">
-            <nav>
-                <a href="#">
-                    <img src="Imagens/Sundae.jpg" alt="Sundae">
-                    <div class="descr">
-                        SUNDAE
-                    </div>
-                </a>
-                <a href="#">
-                    <img src="Imagens/Cinnabon.jpg" alt="Cinnabon">
-                    <div class="descr">
-                        CINNABON
-                    </div>
-                </a>
-                <a href="#">
-                    <img src="Imagens/Americano.jpg" alt="Americano">
-                    <div class="descr">
-                        AMERICAN
-                    </div>
-                </a>
-                <a href="#">
-                    <img src="Imagens/Avalancha.jpg" alt="Avalancha">
-                    <div class="descr">
-                        AVALANCHA
-                    </div>
-                </a>
-                <a href="#">
-                    <img src="Imagens/Manicho.jpg" alt="Manicho">
-                    <div class="descr">
-                        MANICHO
-                    </div>
-                </a>
-            </nav>
+        <img src="Imagens/Fondo_Login.jpg" alt="login_imagen">
+        <div class="login_parte">
+            <section class="inicio">
+                <h1>Iniciar Sesion</h1>
+                <input type="text" id="campo-texto" name="usuario" value="Usuario" ><hr>
+                <input type="text" id="campo-texto" name="contrasena" value="Contraseña"><hr><br><br>
+                <a href="login.html" class="logi">Acceder</a>
+            </section>
+            <section class="registro">
+                <h1>Registrarse</h1>
+                <p>Con una cuenta llevas el control de las compras, los pagos son mas rapidos.</p>
+                <input type="text" id="campo-texto" name="usuario" value="Primer Nombre"><hr>
+                <input type="text" id="campo-texto" name="usuario" value="Segundo Nombre"><hr>
+                <input type="text" id="campo-texto" name="usuario" value="Correo Electrónico"><hr>
+                <input type="text" id="campo-texto" name="usuario" value="Contraseña"><hr><br><br>
+                <a href="login.html" class="logi">Registrarse</a>
+            </section>
         </div>
     </main>
     <footer>
@@ -99,9 +72,10 @@
                 <h1>tiktok/CROFU_OFICIAL</h1>
             </a>
         </div>
-
-
+        
     </footer>
+    <script src="script.js"></script>
 </body>
+
 
 </html>
