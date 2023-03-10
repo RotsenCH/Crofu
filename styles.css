@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-family: 'Verdana';
+    font-family: 'Baloo';
     font-style: normal;
     background: url(./Imagens/Fondo.png);
     background-repeat: repeat;
@@ -150,6 +150,7 @@ main {
     height: 100%;
     display: flex;
     justify-content: center;
+
 }
 
 .menu_parte {
@@ -158,6 +159,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding: 30px;
 }
 
 .menu_parte nav a {
@@ -171,6 +173,7 @@ main {
     width: 200px;
     height: 250px;
     margin: 0px;
+
 }
 
 .descr {
@@ -199,11 +202,11 @@ footer {
     gap: 10px;
     margin-top: 50px;
     font-size: 30px;
+    position: relative;
 }
 
 footer h1 {
     font-size: 25px;
-    
 }
 
 footer img {
@@ -234,3 +237,99 @@ footer a {
 }
 
 /*Footer*/
+
+
+
+/*Estilos del archivo html menu.html*/
+
+
+
+.heladeria{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    left: 0px;
+}
+
+.productotitle{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 220px;
+    height: 76px;
+    left: 22px;
+    top: 370px;
+}
+
+.productotitle h1{
+    background-color: #FE9292;
+    padding: 4px;
+}
+
+.cont-productos{
+    background-color: #8BD8D0;
+    position: relative;
+    width: 1450px;
+    height: 900px;
+    left: 34px;
+    top: 80px;
+ }
+
+
+.helados-kfc h1{
+    position: relative;
+    background-color: #FE9292;
+    width: 240px;
+    padding: 0px, 12px;
+    left: 15px;
+    top: 18px;
+    gap: 10px;
+ }
+
+ .helados-pinguino h1{
+    position: relative;
+    background-color: #FE9292;
+    width: 340px;
+    padding: 0px, 12px;
+    left: 15px;
+    top: 18px;
+    gap: 10px;
+ }
+
+
+@media only screen and (max-width: 768px) {
+    .productotitle {
+      position: relative;
+      width: 100%;
+      height: auto;
+      left: 0;
+      top: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .descr {
+      font-size: 24px;
+    }
+  
+    .cont-productos {
+      top: auto;
+      width: 100%;
+      max-width: none;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .helados-kfc h1, .helados-pinguino h1 {
+      max-width: none;
+      width: 100%;
+      text-align: center;
+    }
+}
