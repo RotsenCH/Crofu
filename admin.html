@@ -149,6 +149,46 @@
         </div>
 
     </dialog>
+    <!--Model de eliminar-->
+    <dialog class="eliminar-modal">
+        <div class="conte-eliminar-pro">
+            <form>
+                <h1>Eliminar producto</h1>
+                <div class="informacion-eliminar">
+                  <input type="text" id="codigo" name="email" placeholder="Codigo del producto:">
+                </div>
+                <hr>
+                <div class="informacion-eliminar">
+                  <input type="text" id="nombre" name="name" placeholder="Nombre producto:">
+                </div>
+
+            </form>
+        </div>
+        <div class="boton-eliminar">
+            <button type="button" id="btm-eliminar-modal">Eliminar</button>
+        </div>
+        
+    </dialog>
+
+    <dialog class="confir-eliminar">
+        <div class="texto-titulo-eliminar">
+            <h1>Confirmacion de eliminacion</h1>
+        </div>
+        <div class="texto-productp-eliminar">
+            <h1>¿Desea eliminar el producto?</h1>
+        </div>
+        <div class="subtexto-pregunta-eliminar">
+            <h1>Codigo: </h1>
+            <h1>Nombre: </h1>
+        </div>
+
+        <div class="botones-preguntas-elim">
+            <button type="button" id="btm-si-elim">Si</button>
+            <button type="button" id="btm-no-elim">No</button>
+        </div>
+
+    </dialog>
+
     <script src="adminfun.js"></script>
 </body>
 
