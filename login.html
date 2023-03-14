@@ -20,7 +20,7 @@
                         alt="WhatsApp"></a>
                 <a href="https://www.tiktok.com" class="imgxd"><img src="Imagens/Tiktok.png" alt="TikTok"></a>
                 <a href="index.html" class="inme">Inicio</a>
-                <a href="#" class="inme 1">Menú</a>
+                <a href="menu.html" class="inme 1">Menú</a>
                 <a href="index.html"><img src="Imagens/Crofu.png" alt="Logo de la Empresa" class="logo_arriba"></a>
                 <a href="#">Conócenos</a>
                 <a href="#" class="log">Login</a>
@@ -31,20 +31,41 @@
         <img src="Imagens/Fondo_Login.jpg" alt="login_imagen">
         <div class="login_parte">
             <section class="inicio">
+
                 <h1>Iniciar Sesion</h1>
-                <input type="text" id="campo-texto" name="usuario" value="Usuario" ><hr>
-                <input type="text" id="campo-texto" name="contrasena" value="Contraseña"><hr><br><br>
-                <a href="login.html" class="logi">Acceder</a>
+                <form>
+                    <input type="text" id="user" name="usuario" value="Usuario" required>
+                    <hr>
+                    <input type="text" id="pass" name="contrasena" value="Contraseña" required>
+                    <hr><br><br>
+                    <button id="acc" class="acc">Acceder</button>
+                </form>
             </section>
             <section class="registro">
                 <h1>Registrarse</h1>
                 <p>Con una cuenta llevas el control de las compras, los pagos son mas rapidos.</p>
-                <input type="text" id="campo-texto" name="usuario" value="Primer Nombre"><hr>
-                <input type="text" id="campo-texto" name="usuario" value="Segundo Nombre"><hr>
-                <input type="text" id="campo-texto" name="usuario" value="Correo Electrónico"><hr>
-                <input type="text" id="campo-texto" name="usuario" value="Contraseña"><hr><br><br>
-                <a href="login.html" class="logi">Registrarse</a>
+                <form>
+                    <input type="text" id="campo-texto" name="usuario" value="Primer Nombre">
+                    <hr>
+                    <input type="text" id="campo-texto" name="usuario" value="Segundo Nombre">
+                    <hr>
+                    <input type="text" id="new_user" name="new_user" value="Correo Electrónico">
+                    <hr>
+                    <input type="text" id="new_pass" name="new_pass" value="Contraseña">
+                    <hr><br><br>
+                    <button id="logi" class="logi">Registrarse</button>
+                </form>
+
             </section>
+        </div>
+        <!-- The Modal -->
+        
+        <div id="mensaje_modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <h1 id="mensaje_texto"></h1>
+                <button class="ok_boton"> OK</button>
+            </div>
         </div>
     </main>
     <footer>
@@ -72,7 +93,7 @@
                 <h1>tiktok/CROFU_OFICIAL</h1>
             </a>
         </div>
-        
+
     </footer>
     <script src="script.js"></script>
 </body>
