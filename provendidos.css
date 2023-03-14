@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Baloo', sans-serif;
+}
+
+body {
+    font-family: 'Baloo';
+    font-style: normal;
+    background-image: url(./Imagens/Fondo.png);
+    background-repeat: repeat;
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+/*Contenedor principal*/
+
+.pantalla-admin{
+   
+    background-image: url(./Imagens/Fondo.png);
+    background-repeat: repeat;
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+
+.pantalla-admin .cabezera{
+    display: grid;
+    grid-template-columns: repeat(4, 500px);
+    min-width: 200px;
+    width: 100%;
+    height: 100px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.pantalla-admin .cabezera h1{
+    background-color: #FE9292;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.pantalla-admin .cabezera h1 a{
+    color: black;
+}
+
+.pantalla-admin .cabezera img{
+    margin-left: 50px;
+}
+
+/*Contenedores de las listas y opciones*/
+
+.contenedor-administrador{
+    display: grid;
+    grid-template-columns: minmax(75%, 1fr) minmax(20%, 2fr);
+    background-color: #8BD8D0;
+    margin: 12px;
+}
+
+.listado{
+    display: grid;
+    grid-template-columns: minmax(75%, 1fr) minmax(20%, 2fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 12px;
+}
+
+
+.contenedor-administrador .opciones-admin .op{
+    margin: 12px;
+    margin-top: 20px;
+    background-color: #FE9292;
+    font-weight: 900;
+}
+
+.listado .lista-izq .descripcion-lista h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.listado .lista-izq .descripcion-lista h2{
+    font-size: 20px;
+    font-size: 50;
+}
+
+.contenedor-administrador .lista-cant{
+    text-align: right;
+}
+
+.contenedor-administrador .lista-cant .cantidad-lista{
+    text-align: right;
+    margin-right: 12px;
+}
+
+.cant-productos-dos{
+    margin-top: 22px;
+}
+
+.opb {
+    background-color: #FE9292;
+    border: 2px solid #FE9292;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
