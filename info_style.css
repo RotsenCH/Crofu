@@ -91,15 +91,18 @@ nav>a:hover {
     font-weight: 100;
     font-size: 30px;
     background: #8BD8D0;
-    margin-left: 100px;    
+    margin-left: 100px;
     margin-right: 100px;
-    
+
 }
-.m1 h1{
-    padding: 0px 52px;;
+
+.m1 h1 {
+    padding: 0px 52px;
+    ;
     text-align: center;
     font-family: 'Verdana', sans-serif;
 }
+
 .m2 {
     display: flex;
     justify-content: center;
@@ -112,12 +115,14 @@ nav>a:hover {
     font-size: 30px;
     background: #E3BCBC;
 }
-.m2 h1{
+
+.m2 h1 {
     margin-top: 20px;
     font-family: 'Verdana', sans-serif;
     font-weight: normal;
 }
-.m3{
+
+.m3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +135,8 @@ nav>a:hover {
     background: #E3BCBC;
 
 }
-.m3 h3{
+
+.m3 h3 {
     text-align: center;
     font-size: 30px;
     padding-left: 12px;
@@ -138,27 +144,31 @@ nav>a:hover {
     font-weight: normal;
     font-family: 'Verdana', sans-serif;
 }
+
 .m4 {
     margin-top: 50px;
-    margin-left: 150px;  
-      
+    margin-left: 150px;
+
 }
+
 .m4 img {
     width: 350px;
     height: 350px;
 }
-.m4 h1{
+
+.m4 h1 {
     text-align: center;
     background: #8BD8D0;
-    margin-left: 450px;    
+    margin-left: 450px;
     margin-right: 100px;
     font-size: 30px;
-    
+
 }
-.m4 h2{
+
+.m4 h2 {
     text-align: center;
     background: #8BD8D0;
-    margin-left: 450px;    
+    margin-left: 450px;
     margin-right: 100px;
     font-size: 25px;
     padding-left: 12px;
@@ -166,10 +176,11 @@ nav>a:hover {
     font-weight: normal;
 
 }
-.m4 h3{
+
+.m4 h3 {
     text-align: center;
     background: #8BD8D0;
-    margin-left: 450px;    
+    margin-left: 450px;
     margin-right: 100px;
     font-size: 30px;
 
@@ -193,7 +204,7 @@ footer {
 
 footer h1 {
     font-size: 25px;
-    
+
 }
 
 footer img {
@@ -215,6 +226,7 @@ footer .redes_footer .imgxd {
 footer a {
     color: #000000;
 }
+
 .redes_footer {
     flex-direction: column;
 }
