@@ -104,7 +104,7 @@ body {
     margin-top: 22px;
 }
 
-.opb {
+.opb{
     background-color: #FE9292;
     border: 2px solid #FE9292;
     color: black;
@@ -113,4 +113,10 @@ body {
     padding: 5px 10px;
     margin: 10px;
     cursor: pointer;
+    
   }
+
+  .op a{
+    color: black;
+  }
+  

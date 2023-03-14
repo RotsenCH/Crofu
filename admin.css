@@ -114,3 +114,7 @@ body {
     margin: 10px;
     cursor: pointer;
 }
+
+.op a{
+    color: black;
+  }
