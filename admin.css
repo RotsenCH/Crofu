@@ -117,13 +117,12 @@ body {
 
 .op a {
     color: black;
-<<<<<<< HEAD
-  }
+}
 
 
 /*Boton ingresar model*/
 
-.ingresar-modal{
+.ingresar-modal {
     position: fixed;
     width: 500px;
     height: 400px;
@@ -133,10 +132,10 @@ body {
     background-color: #8BD8D0;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.informacion-producto input[type="text"]{
+.informacion-producto input[type="text"] {
     background-color: #8BD8D0;
     width: 425px;
     height: 35px;
@@ -149,21 +148,21 @@ body {
     font-weight: 900;
     font-size: 25px;
     line-height: 39px;
-    
+
 }
 
 
-.ingresar-modal .conte-agregar-pro{
+.ingresar-modal .conte-agregar-pro {
     margin: 10px;
     padding: 2px;
 
 }
 
-.ingresar-modal .conte-agregar-pro h1{
+.ingresar-modal .conte-agregar-pro h1 {
     font-size: 38px;
 }
 
-.ingresar-modal #btm-registrar-modal{
+.ingresar-modal #btm-registrar-modal {
     background-color: #FE9292;
     border-style: none;
     border-radius: 20px;
@@ -175,7 +174,7 @@ body {
     text-align: center;
 }
 
-.boton-ingresar{
+.boton-ingresar {
     display: block;
     text-align: center;
     padding: 10px;
@@ -183,7 +182,7 @@ body {
 
 /*Confirmacion de ingresar mas*/
 
-.confir-ingr{
+.confir-ingr {
     position: fixed;
     width: 500px;
     height: 280px;
@@ -193,24 +192,25 @@ body {
     background-color: #ffffff;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     border-radius: 40px;
 }
 
-.confir-ingr .texto-productp{
+.confir-ingr .texto-productp {
     padding: 20px;
     font-size: 20px;
     font-style: normal;
     font-weight: 100;
 }
 
-.confir-ingr .subtexto-pregunta{
+.confir-ingr .subtexto-pregunta {
     color: rgb(69, 69, 69);
     margin-left: 50px;
     padding: 2px;
 }
 
-.confir-ingr #btm-si, #btm-no{
+.confir-ingr #btm-si,
+#btm-no {
     border-style: none;
     background-color: #FE9292;
     border-radius: 20px;
@@ -219,10 +219,8 @@ body {
     font-size: 25px;
 }
 
-.confir-ingr .botones-preguntas{
+.confir-ingr .botones-preguntas {
     display: block;
     text-align: center;
     padding: 10px;
-=======
->>>>>>> aed61db844cead37ff970959fb929129f61af617
 }
