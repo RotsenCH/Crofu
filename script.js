@@ -39,8 +39,10 @@ form.addEventListener('submit', function (event) {
     if (foundUser) {
         if (foundUser.isAdmin) {
             messageText.textContent = '¡Haz iniciado sesion! como administrador';
+            window.location.replace("admin.html");
         } else {
             messageText.textContent = '¡Haz iniciado sesion!';
+            window.location.replace("menu.html");
         }
     } else {
         messageText.textContent = '¡Error al ingresar! Crea una cuenta';
