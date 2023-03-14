@@ -223,3 +223,113 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+/*Model editar*/
+.editar-modal{
+    position: fixed;
+    width: 500px;
+    height: 250px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    border: none;
+    background-color: #8BD8D0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.informacion-editar input[type="text"]{
+    background-color: #8BD8D0;
+    width: 425px;
+    height: 35px;
+    margin: 6px;
+    padding: 2px;
+    border: none;
+    color: #000000;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 39px;
+    
+}
+
+.editar-modal .conte-editar-pro{
+    margin: 10px;
+    padding: 2px;
+
+}
+
+.editar-modal .conte-editar-pro h1{
+    font-size: 38px;
+}
+
+.editar-modal #btm-editar-modal{
+    background-color: #FE9292;
+    border-style: none;
+    border-radius: 15px;
+    padding: 1px;
+    width: 250px;
+    height: 40px;
+    margin: 12px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.boton-editar{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*Confirmacion de editar mas*/
+
+.confir-edit{
+    position: fixed;
+    width: 500px;
+    height: 280px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    border: none;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 40px;
+}
+
+.confir-edit .texto-titulo-edit{
+    padding: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.confir-edit .texto-productp-edit{
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.confir-edit .subtexto-pregunta-edit{
+    color: rgb(69, 69, 69);
+    margin-left: 20px;
+    padding: 2px;
+}
+
+.confir-edit #btm-si-edit, #btm-no-edit{
+    border-style: none;
+    background-color: #FE9292;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.confir-edit .botones-preguntas-edit{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}

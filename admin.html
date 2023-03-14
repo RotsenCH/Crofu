@@ -110,7 +110,45 @@
 
     </dialog>
 
-    
+    <!--Model de editar-->
+    <dialog class="editar-modal">
+        <div class="conte-editar-pro">
+            <form>
+                <h1>Editar producto</h1>
+                <div class="informacion-editar">
+                  <input type="text" id="codigo" name="email" placeholder="Codigo del producto:">
+                </div>
+                <hr>
+                <div class="informacion-editar">
+                  <input type="text" id="nombre" name="name" placeholder="Nombre producto:">
+                </div>
+
+            </form>
+        </div>
+        <div class="boton-editar">
+            <button type="button" id="btm-editar-modal">Editar</button>
+        </div>
+        
+    </dialog>
+
+    <dialog class="confir-edit">
+        <div class="texto-titulo-edit">
+            <h1>Edicion de productos</h1>
+        </div>
+        <div class="texto-productp-edit">
+            <h1>¿Desea guardar los cambios?</h1>
+        </div>
+        <div class="subtexto-pregunta-edit">
+            <h1>Codigo: </h1>
+            <h1>Nombre: </h1>
+        </div>
+
+        <div class="botones-preguntas-edit">
+            <button type="button" id="btm-si-edit">Si</button>
+            <button type="button" id="btm-no-edit">No</button>
+        </div>
+
+    </dialog>
     <script src="adminfun.js"></script>
 </body>
 
