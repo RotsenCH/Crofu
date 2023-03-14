@@ -124,3 +124,241 @@ main {
 }
 
 
+/*Modal*/
+
+#modal{
+    position: fixed;
+    width: 1000px;
+    height: 600px;
+    font-family: 'Baloo';
+    font-style: normal;
+    border: none;
+}
+
+.pagar-modal{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+
+.resumen-orden{
+    background-color: #DFDFDF;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+
+}
+
+
+#modal img{
+    display: block;
+    margin: 0 auto;
+}
+
+#modal h1{
+    font-size: 24px;
+    font-family: 'Inter';
+}
+
+#modal .informacion-cuenta{
+    width: 250px;
+
+}
+
+.informacion-cuenta input[type="text"],
+.informacion-cuenta input[type="tel"],
+.informacion-cuenta input[type="email"] {
+    background-color: #F4F0F0;
+    width: 425px;
+    height: 35px;
+    margin: 6px;
+    padding: 2px;
+    border: none;
+    color: #9C9C9C;
+    
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.resumen-orden .informacion-cuenta input[type="text"]{
+    background-color: #FFFFFF;
+}
+
+.pagar-modal .botones{
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.pagar-modal .botones #btm-pagar, #btm-cerrar-modal{
+    background-color: #F4F0F0;
+    width: 125px;
+    height: 45px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+}
+
+
+.pagar-modal .botones #btm-cerrar-modal{
+    width: 200px;
+    margin-left: 12px;
+}
+
+
+
+.resumen-orden .item{
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  gap: 12px;
+}
+
+.resumen-orden .item .precio-antes{
+    margin-right: 45px;
+    text-align: right;
+}
+
+.resumen-orden .informacion-cuenta input[type="text"]{
+    width: 445px;
+}
+
+.precompra{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(2,30px);
+    font-size: 19px;
+    
+    margin: 3px;
+}
+
+.precompra .precompra-der{
+    text-align: right;
+    margin-right: 16px;
+    
+}
+
+.precompra-izq .subp{
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+}
+.precompra-izq .enviop{
+    grid-row: 2 / 2;
+    grid-column: 1 / 1;
+}
+
+.precompra-der .preciou{
+    grid-row: 1 / 1;
+    grid-column: 2 / 2;
+}
+
+.precompra-der .preciod{
+    grid-row: 2 / 2;
+    grid-column: 2 / 2;
+}
+
+.total{
+    font-size: 19px;
+    
+    margin: 3px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.total .preciot{
+    text-align: right;
+    margin-right: 15px;
+}
+
+/*Boton del cuadro de dialogo su pago ha sido exitoso*/
+#pago-exitoso{
+    border-radius: 45px;
+    border: none;
+    padding: 12px 30px;
+}
+
+#pago-exitoso{
+    text-align: center;
+}
+
+#pago-exitoso #btn-ok {
+    background-color: #F4F0F0;
+    color: #333;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+    border: none;
+  }
+
+
+
+/*Animaciones*/
+
+.pagar-modal .botones #btm-pagar:hover, #btm-cerrar-modal:hover{
+    border-color: #9C9C9C;
+}
+
+#pago-exitoso #btn-ok:hover {
+    border-color: #9C9C9C;
+}
+
+
+/*Codigo responsive para smartphone*/
+/* Estilos para pantallas de hasta 768px de ancho */
+@media (max-width: 768px) {
+    #modal {
+      width: 90%;
+      height: auto;
+    }
+    .pagar-modal, .resumen-orden {
+      width: 100%;
+      float: none;
+      padding: 10px;
+    }
+    .precompra, .total {
+      display: block;
+    }
+    .precompra .precompra-der, .total .preciot {
+      text-align: left;
+      margin-right: 0;
+      margin-left: 16px;
+    }
+    .informacion-cuenta input[type="text"],
+    .informacion-cuenta input[type="tel"],
+    .informacion-cuenta input[type="email"] {
+      width: 100%;
+    }
+
+    .botones{
+        float: none;
+    }
+  }
+  
+  /* Estilos para pantallas de hasta 1200px de ancho */
+  @media (max-width: 1200px) {
+    .resumen-orden .item {
+      grid-template-columns: repeat(2, 150px);
+    }
+  }
+  
+  /* Estilos para pantallas de más de 1200px de ancho */
+  @media (min-width: 1200px) {
+    .resumen-orden .item {
+      grid-template-columns: repeat(3, 150px);
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .pagar-modal,
+    .resumen-orden {
+      width: 100%;
+      float: none;
+    }
+}
+  
