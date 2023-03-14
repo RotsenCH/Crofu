@@ -39,10 +39,8 @@ form.addEventListener('submit', function (event) {
     if (foundUser) {
         if (foundUser.isAdmin) {
             messageText.textContent = '¡Haz iniciado sesion! como administrador';
-            window.location.replace("admin.html");
         } else {
             messageText.textContent = '¡Haz iniciado sesion!';
-            window.location.replace("menu.html");
         }
     } else {
         messageText.textContent = '¡Error al ingresar! Crea una cuenta';
@@ -80,6 +78,16 @@ createUserForm.addEventListener('submit', function (event) {
 function hideModal() {
     messageOverlay.style.display = "none";
     messageModal.style.display = "none";
+
+    const foundUser = users.find(function (user) {
+        return user.username === username.value && user.password === password.value;
+    });
+
+    if (foundUser && foundUser.isAdmin) {
+        window.location.replace("admin.html");
+    } else {
+        window.location.replace("menu.html");
+    } 
 }
 
 closeButton.addEventListener("click", hideModal);
