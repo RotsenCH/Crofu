@@ -23,8 +23,8 @@ body {
 
 /*Contenedor principal*/
 
-.pantalla-admin{
-   
+.pantalla-admin {
+
     background-image: url(./Imagens/Fondo.png);
     background-repeat: repeat;
     background-size: cover;
@@ -32,7 +32,7 @@ body {
 }
 
 
-.pantalla-admin .cabezera{
+.pantalla-admin .cabezera {
     display: grid;
     grid-template-columns: repeat(4, 500px);
     min-width: 200px;
@@ -42,60 +42,60 @@ body {
     background-color: white;
 }
 
-.pantalla-admin .cabezera h1{
+.pantalla-admin .cabezera h1 {
     background-color: #FE9292;
     margin-top: 20px;
     padding: 10px;
     margin-left: 10px;
 }
 
-.pantalla-admin .cabezera h1 a{
+.pantalla-admin .cabezera h1 a {
     color: black;
 }
 
-.pantalla-admin .cabezera img{
+.pantalla-admin .cabezera img {
     margin-left: 50px;
 }
 
 /*Contenedores de las listas y opciones*/
 
-.contenedor-administrador{
+.contenedor-administrador {
     display: grid;
     grid-template-columns: minmax(75%, 1fr) minmax(20%, 2fr);
     background-color: #8BD8D0;
     margin: 12px;
 }
 
-.listado{
+.listado {
     display: grid;
     grid-template-columns: minmax(75%, 1fr) minmax(20%, 2fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
     padding: 12px;
 }
 
 
-.contenedor-administrador .opciones-admin .op{
+.contenedor-administrador .opciones-admin .op {
     margin: 12px;
     margin-top: 20px;
     background-color: #FE9292;
     font-weight: 900;
 }
 
-.listado .lista-izq .descripcion-lista h1{
+.listado .lista-izq .descripcion-lista h1 {
     font-size: 30px;
     font-weight: bold;
 }
 
-.listado .lista-izq .descripcion-lista h2{
+.listado .lista-izq .descripcion-lista h2 {
     font-size: 20px;
     font-size: 50;
 }
 
-.contenedor-administrador .lista-cant{
+.contenedor-administrador .lista-cant {
     text-align: right;
 }
 
-.contenedor-administrador .lista-cant .cantidad-lista{
+.contenedor-administrador .lista-cant .cantidad-lista {
     text-align: right;
     margin-right: 12px;
 }
@@ -109,4 +109,4 @@ body {
     padding: 5px 10px;
     margin: 10px;
     cursor: pointer;
-  }
+}
